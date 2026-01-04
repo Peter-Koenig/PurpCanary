@@ -1,12 +1,12 @@
-Hier ist eine strukturierte Roadmap für das Purple Canary Pi-hole Plugin:
+# Roadmap
 
 ## Phase 1: Projektsetup (2-3 Stunden)
 
-* [ ] GitHub-Repository erstellen mit Apache 2.0 oder GPL-3.0 Lizenz
-* [ ] README.md mit Projektbeschreibung, Zielen und Hintergrund zu Pegasus/Spyware-Überwachung
-* [ ] Basis-Ordnerstruktur anlegen: `/scripts`, `/config`, `/docs`, `/lists`
-* [ ] Contributing Guidelines und Code of Conduct hinzufügen
-* [ ] Issue-Templates für Bug Reports und Feature Requests
+* [x] GitHub-Repository erstellen mit Apache 2.0 oder GPL-3.0 Lizenz
+* [x] README.md mit Projektbeschreibung, Zielen und Hintergrund zu Pegasus/Spyware-Überwachung
+* [x] Basis-Ordnerstruktur anlegen: `/scripts`, `/config`, `/docs`, `/lists`
+* [x] Contributing Guidelines und Code of Conduct hinzufügen
+* [x] Issue-Templates für Bug Reports und Feature Requests
 
 
 ## Phase 2: IoC-Integration (3-4 Stunden)
@@ -70,4 +70,3 @@ Hier ist eine strukturierte Roadmap für das Purple Canary Pi-hole Plugin:
 * [ ] Translations: Mindestens EN/DE README
 * [ ] Video-Tutorial oder Asciinema-Demo
 * [ ] Monitoring der Issues und Community-Feedback
-
