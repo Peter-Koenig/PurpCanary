@@ -1,4 +1,4 @@
-# Purple Canary 🐦‍⬛
+# __WiP, just initiated__: Purple Canary 🐦‍⬛
 
 **A Pi-hole plugin for detecting Pegasus spyware and commercial surveillance tools**
 
