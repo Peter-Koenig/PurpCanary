@@ -1,8 +1,12 @@
-# __WiP, just initiated__: Purple Canary 🐦‍⬛
+#  Purple Canary 🐦‍⬛
 
 **A Pi-hole plugin for detecting Pegasus spyware and commercial surveillance tools**
 
 Purple Canary transforms your Pi-hole into a network sensor that monitors DNS queries for known indicators of compromise (IoCs) associated with Pegasus spyware and other commercial surveillance tools. By deploying distributed sensors across civil society, we increase the operational costs for spyware vendors and reduce the window of opportunity for zero-day exploits.
+
+## WiP, Status: Just initiated
+
+4.1.2026: Structure and WBS created
 
 ## 🎯 Mission
 
