@@ -1,0 +1,67 @@
+name: "Bug Report"
+description: "Report a bug or issue with Purple Canary"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        Please provide as much detail as possible to help us understand and reproduce the issue.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe what happened and what you expected to happen"
+      placeholder: "Example: When I try to update the IoC database, Purple Canary crashes with a segmentation fault. I expected it to download the latest indicators successfully."
+    validations:
+      required: true
+  - type: input
+    id: pihole-version
+    attributes:
+      label: "Pi-hole version"
+      description: "The version of Pi-hole you are running"
+      placeholder: "e.g., v5.18, v6.0"
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: "Operating System"
+      description: "The operating system and version where Pi-hole and Purple Canary are installed"
+      placeholder: "e.g., Raspberry Pi OS Bookworm, Ubuntu 22.04, DietPi"
+    validations:
+      required: true
+  - type: input
+    id: purple-canary-version
+    attributes:
+      label: "Purple Canary version"
+      description: "Run `purple-canary --version` or specify git commit hash"
+      placeholder: "e.g., 1.2.3 or a1b2c3d"
+    validations:
+      required: false
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "How can we reproduce this issue?"
+      placeholder: "1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See error"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: "Paste relevant logs here (redact sensitive information like IP addresses or domains)"
+      placeholder: "Paste logs from /var/log/purple-canary.log, Pi-hole logs, or systemd journal"
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional context"
+      description: "Anything else we should know?"
+      placeholder: "Screenshots, configuration files, network setup, etc."
+    validations:
+      required: false
